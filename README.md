@@ -22,7 +22,7 @@ Here you will find the code to run our model in inference and to fine-tune it on
      height="60">
 <!-- Heading -->
 
-This work introduces an extention of the original [TesticulUS](https://ditto.ing.unimore.it/testiculus/) dataset, indeed among the original ~9,300 diffusion generated images **810** of them have been choosen by expert annotators as the most realistic and therefore have been annotated with segmentation masks of the tecticles.
+This work introduces an extention of the original [TesticulUS](https://ditto.ing.unimore.it/testiculus/) dataset, indeed among the original ~9,300 diffusion generated images **810** of them have been choosen by expert annotators as the most realistic and therefore have been annotated with segmentation masks of the testicles.
 
 ### Dataset Card ~ TesticulUS-Syn
     - 810 sythetic images selected from the original **TesticulUS**
