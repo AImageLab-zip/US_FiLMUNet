@@ -4,6 +4,15 @@ This repository contains the official PyTorch implementation for the paper: "TOO
 
 Here you will find the code to run our model in inference and to fine-tune it on your own ultrasound image dataset.
 
+<p align="center">
+  <img src="film_unet.png" alt="IM-Fuse overview" width="55%">
+  <br>
+  <em>
+    Overview of the proposed FiLM-UNet architecture.
+  </em>
+</p>
+
+
 ## Dataset
 
 <!-- Logo: float to the right -->
