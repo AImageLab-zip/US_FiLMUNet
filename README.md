@@ -1,12 +1,19 @@
 # US-FiLMUNet: Cross-Domain Ultrasound Segmentation
 
-This repository contains the official PyTorch implementation for the paper: "[TOO BIG TO FAIL? NOT QUITE: FILM-UNET BEATS FOUNDATION MODELS IN CROSS-DOMAIN ULTRASOUND SEGMENTATION](https://arxiv.org/abs/YOUR_PAPER_ID)".
+This repository contains the official PyTorch implementation for the paper: "TOO BIG TO FAIL? NOT QUITE: FILM-UNET BEATS FOUNDATION MODELS IN CROSS-DOMAIN ULTRASOUND SEGMENTATION", submitted, and under review, to the ISBI 2026 Conference.
 
 Here you will find the code to run our model in inference and to fine-tune it on your own ultrasound image dataset.
 
 ## Dataset
 
-This work introduces an extention of the original [TesticulUS](https://ditto.ing.unimore.it/testiculus/) dataset, indeed among the original ~9,300 diffusion generated images **810** of them have been choosen by expert annotators as the most realistic and therefore have been annotated with segmentation masks.
+<!-- Logo: float to the right -->
+<img src="https://ditto.ing.unimore.it/static/testiculus/logo_w_text.png"
+     alt="TesticulUS Dataset Logo"
+     align="right"
+     height="60">
+<!-- Heading -->
+
+This work introduces an extention of the original [TesticulUS](https://ditto.ing.unimore.it/testiculus/) dataset, indeed among the original ~9,300 diffusion generated images **810** of them have been choosen by expert annotators as the most realistic and therefore have been annotated with segmentation masks of the tecticles.
 
 ### Dataset Card ~ TesticulUS-Syn
     - 810 sythetic images selected from the original **TesticulUS**
